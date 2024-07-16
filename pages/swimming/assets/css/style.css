@@ -71,10 +71,11 @@ body {
 }
 
 .hero {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%), url('/assets/img/watersports.jpg');
+    background: linear-gradient(to top, #5ce2fa 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/watersports.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -101,6 +102,43 @@ body {
 .hero-content .description {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+
+.about-section, .techniques-section, .benefits-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/swimming.jpeg');
+}
+
+.techniques-section {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/freestyle.jpg');
+}
+
+.benefits-section {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/benefits.jpg');
+}
+
+.content {
+    max-width: 800px;
+}
+
+.content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.5rem;
 }
 
 .footer {
