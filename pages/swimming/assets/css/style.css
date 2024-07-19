@@ -71,7 +71,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(to top, #5ce2fa 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/watersports.jpg');
+    background: linear-gradient(to top, #5ce2fa 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/img/watersports.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,15 +117,15 @@ body {
 }
 
 .about-section {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/swimming.jpeg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/img/swimming.jpeg");
 }
 
 .techniques-section {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/freestyle.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/img/swimming.jpeg");
 }
 
 .benefits-section {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url('/assets/img/benefits.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/img/benefits.jpg");
 }
 
 .content {
